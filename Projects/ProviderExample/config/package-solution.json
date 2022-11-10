@@ -8,12 +8,22 @@
     "skipFeatureDeployment": true,
     "isDomainIsolated": false,
     "developer": {
-      "name": "",
-      "websiteUrl": "",
-      "privacyUrl": "",
-      "termsOfUseUrl": "",
+      "name": "busitec GmbH",
+      "websiteUrl": "https://www.busitec.de/",
+      "privacyUrl": "https://www.busitec.de/datenschutz/",
+      "termsOfUseUrl": "https://www.busitec.de/allgemeine-geschaeftsbedingungen/",
       "mpnId": "Undefined-1.15.2"
     },
+    "webApiPermissionRequests": [
+      {
+        "resource": "Microsoft Graph",
+        "scope": "Directory.Read.All"
+      },
+      {
+        "resource": "Microsoft Graph",
+        "scope": "User.Read.All"
+      }
+    ],
     "metadata": {
       "shortDescription": {
         "default": "provider-example description"
