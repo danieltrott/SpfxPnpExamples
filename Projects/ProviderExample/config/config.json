@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "pnp-providers-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/pnpProviders/PnpProvidersWebPart.js",
+          "manifest": "./src/webparts/pnpProviders/PnpProvidersWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "PnpProvidersWebPartStrings": "lib/webparts/pnpProviders/loc/{locale}.js"
+  }
+}
